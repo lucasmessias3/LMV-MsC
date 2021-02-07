@@ -1,0 +1,33 @@
+{
+    "larvae" : {
+        "architecture" : ["inception_resnet_v2", "inception_v3", "larvas_celso"],
+        "activeSelection" : ["rand", "border"],
+        "K" : 4
+    },
+    "eggs" : {
+        "architecture" : ["inception_resnet_v2", "inception_v3", "ovos_celso"],
+        "activeSelection" : ["rand", "border"],
+        "K" : 18
+    },
+    "protozoan" : {
+        "architecture" : ["inception_resnet_v2", "inception_v3", "proto_celso"],
+        "activeSelection" : ["rand", "border"],
+        "K" : 14
+    },
+    "all-15" : {
+        "architecture" : ["inception_resnet_v2", "inception_v3"],
+        "activeSelection" : ["rand", "border"],
+        "K" : 30
+    },
+    "all-16" : {
+        "architecture" : ["inception_resnet_v2", "inception_v3"],
+        "activeSelection" : ["rand", "border"],
+        "K" : 32
+    },
+    "seeds" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "dirPath" : "/home/lucasmessias/features/",
+    "dataPath" : "/home/lucasmessias/MsC-Project/framework/data/",
+    "resultsPath" : "/home/lucasmessias/MsC-Project/framework/results/",
+    "barColors" : ["#7293cb", "#e1974c", "#84ba5b", "#d35e60", "#808585", "#9067a7", "#ab6857", "#ccc210"],
+    "lineColors" : ["#396ab1", "#da7c30", "#3e9651", "#cc2528", "#535154", "#6b4c9a", "#922428", "#948b3d"]
+}
